@@ -1,0 +1,231 @@
+*{margin: 0; padding: 0;}
+.web-body{
+    max-width: 100vw;
+    height: auto;
+    background-image: url('chy.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #7d2f6396;
+    background-blend-mode: overlay;
+}
+.navbar{
+    width: 100%;
+    height: 62px;
+    background-color: #00000098;
+
+}
+.navbar a:hover{
+    background-color: rgb(115, 110, 115);
+    color: black;
+    border-radius: 14px;
+}
+.pic{
+    font-family: "tahoma";
+    font-size: large;
+
+
+
+
+}
+/* .animate-img{
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    animation-iteration-count:initial;
+} */
+.active{
+    background-color: green;
+    position: static;
+    
+}
+
+.leftmenu{
+    float: left;
+    width: 25%;
+    padding: 12px 16px;
+}
+.leftmenu > h1{
+    color: white;
+    font-family:"tahoma";
+    font-size: 32px;
+    text-transform: uppercase;
+
+}
+.rightmenu{
+    width: 50%;
+    float: right;
+    padding: 16px 20px;
+    text-align: end;
+
+}
+.rightmenu > ul > li {
+    display: inline-block;
+    list-style: none;
+}
+.rightmenu >  ul > li > a {
+
+font-family: "tahoma";
+font-size: 16px;
+color: #fff;
+padding: 4px 18px;
+text-decoration: none;
+
+}
+.text{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+}
+.text >h1 {
+    font-family: "tahoma";
+    font-size: 62px;
+    font-weight: bolder;
+    color: #fff;
+    padding: 8px 12px;
+}
+.text >h3 {
+    font-family: "tahoma";
+    font-size: 24px;
+    font-weight: lighter;
+    color: #fff;
+    padding: 8px 12px;
+    word-spacing: 24px;
+}
+.text> p{
+    font-family: "tahoma";
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    padding: 12px 16px;
+
+}
+#btn{
+    width: 150px;
+    height: auto;
+    padding: 12px 18px;
+    color: orange;
+    background-color: black;
+    font-size: 16px;
+    font-family: "tahoma";
+    border: none;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+#btn2{
+
+    width: 150px;
+    height: auto;
+    padding: 12px 18px;
+    color:black;
+    background-color:orange;
+    font-size: 16px;
+    font-family: "tahoma";
+    border: none;
+    margin-right: 40px;
+    border-radius: 10px;
+
+
+}
+.page-end{
+    width: 100%;
+    height: 48px;
+    margin-top: 150px;
+    background-color: #211914ad;
+}
+.left-end{
+    float: left;
+    width: 30%;
+    padding: 12px 24px;
+    text-align: start;
+    font-family: "tahoma";
+    font-size: 16px;
+    color: #c5bfc3;
+}
+.right-end{
+    float: left;
+    width: 30%;
+    padding: 12px 24px;
+    text-align: end;
+    font-family: "tahoma";
+    font-size: 16px;
+    color: #daced8;
+
+}
+#text{
+    font-family: "Tahoma";
+    font-weight: bolder;
+    font-style: italic;
+    font-size: large;
+  }
+  #type{
+    font-family: "tahoma";
+    list-style: upper-alpha;
+    font-size: xx-large;
+    font-weight: bolder;
+
+
+  }
+
+
+  .cont{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+    .img-cont{
+        opacity: 1;
+        transition: opacity 0.5s ease;
+    }
+    .image-animate{
+        opacity: 1;
+        transform: translateY(0);
+
+
+
+    }
+.red{color: red;}
+.green{color: green;}
+.black{color: black;}
+.yellow{ color: yellow;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
